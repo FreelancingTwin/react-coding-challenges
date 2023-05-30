@@ -2,7 +2,7 @@ import {useState} from 'react'
 function ProgressBar() {
     const [percentage, setPercentage] = useState();
     return (
-    <div className='container-fluid'>
+    <div>
         <h3>ProgressBar: Fills accordig to input value</h3>
       <progress max="100" min="1" value={percentage}/>
       <div className='grid'>
