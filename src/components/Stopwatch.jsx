@@ -19,9 +19,9 @@ function Stopwatch() {
         <h1>{Math.trunc(tick/60)} mins {tick%60} secs</h1>
         <div className="grid">
 
-      <button onClick={startTimer}>Start</button>
-      <button onClick={stopTimer}>Stop</button>
-      <button onClick={resetTimer}>Reset</button>
+      <button className="secondary" onClick={startTimer}>Start</button>
+      <button className="secondary" onClick={stopTimer}>Stop</button>
+      <button className="secondary" onClick={resetTimer}>Reset</button>
         </div>
     </div>
   )
